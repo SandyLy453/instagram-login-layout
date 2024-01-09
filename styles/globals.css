@@ -1,0 +1,12 @@
+:root {
+  --pink: rgb(214,41,118);
+  --purple: rgb(174, 60, 220);
+  --blue: rgb(41, 105, 255);
+  --line: rgb(224, 128, 144);
+  --bg: linear-gradient(45deg, rgb(255, 216, 45), rgb(255, 28, 153), rgb(137, 33, 178), rgb(78, 5, 90));
+  --button: rgb(72, 170, 255);
+  --white: white;
+  --darkBlue: #4267B2;
+}
+
+

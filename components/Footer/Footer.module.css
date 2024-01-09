@@ -1,0 +1,13 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 216, 237);
+    font-style: italic;
+    padding: 10px;
+}
+
+
+
+

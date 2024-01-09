@@ -1,0 +1,47 @@
+.box {
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    border-color: rgb(205, 205, 205);
+    background-color: white;
+    color: black;
+    width: 23vw;
+    height: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.box:hover {
+    border-color:var(--blue);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 795px ) {
+    .box {
+        width: 33vw;
+    }
+}
+
+@media screen and (max-width: 650px ) {
+    .box {
+        width: 38vw;
+    }
+}
+
+@media screen and (max-width: 550px ) {
+    .box {
+        width: 42vw;
+    }
+}
+
+
+
+
+

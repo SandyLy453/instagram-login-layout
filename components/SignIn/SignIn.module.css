@@ -1,0 +1,16 @@
+.signin {
+    color: var(--pink);
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    font-size: 90%;
+}
+
+

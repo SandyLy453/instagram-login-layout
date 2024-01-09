@@ -1,0 +1,133 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.bg {
+  background: var(--bg);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  color: var(--pink);
+  font-style: italic;
+}
+
+/* This is the default layout setting for desktop */
+.border {
+  display:block;
+  background-color: var(--white);
+  padding: 0 40px 40px 40px;
+  margin: 20px auto;
+  border-radius: 5px;;
+  width: 25vw;
+  height: 420px;
+  border-block: 1px solid rgb(205, 205, 205);
+}
+
+.forgot {
+  font-size: 80%;
+  color: var(--darkBlue);
+  padding:0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.new {
+  display:block;
+  align-items: center;
+  background-color: var(--white);
+  padding: 0 40px 40px 40px;
+  margin: 5px auto;
+  border-radius: 5px;;
+  width: 25vw;
+  height: 40px;
+  border-block: 1px solid rgb(205, 205, 205);
+}
+
+.br{
+  padding: 10;
+  margin: auto;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 30px 0 30px 0;
+  color: var(--white);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 85%;
+}
+
+
+/* This is the layout setting for iPad Air width-1640 */
+@media screen and (max-width: 1640px ) {
+  .border {
+    width: 28vw;
+  }
+  .new {
+    width: 28vw;
+  }
+}
+
+/* These layout seetings are for making the website responsive */
+@media screen and (max-width: 810px ) {
+  .border {
+    width: 35vw;
+  }
+  .new {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 650px ) {
+  .border {
+    width: 42vw;
+  }
+  .new {
+    width: 42vw;
+  }
+}
+
+@media screen and (max-width: 550px ) {
+  .border {
+    width: 45vw;
+  }   
+  
+  .new {
+    width: 45vw;
+  }
+}
+
+/* This is the layout setting for iPhone XR - 414px */
+
+
+
